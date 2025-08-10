@@ -12,7 +12,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",  # Next.js default port
         "http://127.0.0.1:3000",
-        "https://your-domain.com",  # Add your production domain here
+        "https://meme-generator-frontend-five.vercel.app/",  # Add your production domain here
     ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
